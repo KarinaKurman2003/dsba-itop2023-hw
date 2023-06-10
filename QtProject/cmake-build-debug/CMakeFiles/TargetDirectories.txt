@@ -1,0 +1,9 @@
+/Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug/CMakeFiles/IndianRestaraunts.dir
+/Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug/CMakeFiles/list_install_components.dir
+/Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug/CMakeFiles/install.dir
+/Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug/CMakeFiles/install/local.dir
+/Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug/CMakeFiles/install/strip.dir
+/Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug/CMakeFiles/IndianRestaraunts_autogen_timestamp_deps.dir
+/Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug/CMakeFiles/IndianRestaraunts_autogen.dir

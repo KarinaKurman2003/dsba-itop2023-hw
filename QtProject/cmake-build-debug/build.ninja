@@ -1,0 +1,275 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: IndianRestaraunts
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target IndianRestaraunts
+
+
+#############################################
+# Order-only phony target for IndianRestaraunts
+
+build cmake_object_order_depends_target_IndianRestaraunts: phony || IndianRestaraunts_autogen IndianRestaraunts_autogen/mocs_compilation.cpp IndianRestaraunts_autogen/timestamp IndianRestaraunts_autogen_timestamp_deps
+
+build CMakeFiles/IndianRestaraunts.dir/IndianRestaraunts_autogen/mocs_compilation.cpp.o: CXX_COMPILER__IndianRestaraunts_Debug /Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug/IndianRestaraunts_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_IndianRestaraunts
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/IndianRestaraunts.dir/IndianRestaraunts_autogen/mocs_compilation.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -fPIC -std=gnu++17
+  INCLUDES = -I/Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug/IndianRestaraunts_autogen/include -isystem /Users/kurmankarina/opt/anaconda3/include/qt -isystem /Users/kurmankarina/opt/anaconda3/include/qt/QtWidgets -isystem /Users/kurmankarina/opt/anaconda3/include/qt/QtGui -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/kurmankarina/opt/anaconda3/include/qt/QtCore -isystem /Users/kurmankarina/opt/anaconda3/./mkspecs/macx-clang
+  OBJECT_DIR = CMakeFiles/IndianRestaraunts.dir
+  OBJECT_FILE_DIR = CMakeFiles/IndianRestaraunts.dir/IndianRestaraunts_autogen
+
+build CMakeFiles/IndianRestaraunts.dir/src/main.cpp.o: CXX_COMPILER__IndianRestaraunts_Debug /Users/kurmankarina/CLionProjects/lasttestforpr/src/main.cpp || cmake_object_order_depends_target_IndianRestaraunts
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/IndianRestaraunts.dir/src/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -fPIC -std=gnu++17
+  INCLUDES = -I/Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug/IndianRestaraunts_autogen/include -isystem /Users/kurmankarina/opt/anaconda3/include/qt -isystem /Users/kurmankarina/opt/anaconda3/include/qt/QtWidgets -isystem /Users/kurmankarina/opt/anaconda3/include/qt/QtGui -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/kurmankarina/opt/anaconda3/include/qt/QtCore -isystem /Users/kurmankarina/opt/anaconda3/./mkspecs/macx-clang
+  OBJECT_DIR = CMakeFiles/IndianRestaraunts.dir
+  OBJECT_FILE_DIR = CMakeFiles/IndianRestaraunts.dir/src
+
+build CMakeFiles/IndianRestaraunts.dir/src/mainwindow.cpp.o: CXX_COMPILER__IndianRestaraunts_Debug /Users/kurmankarina/CLionProjects/lasttestforpr/src/mainwindow.cpp || cmake_object_order_depends_target_IndianRestaraunts
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/IndianRestaraunts.dir/src/mainwindow.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -fPIC -std=gnu++17
+  INCLUDES = -I/Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug/IndianRestaraunts_autogen/include -isystem /Users/kurmankarina/opt/anaconda3/include/qt -isystem /Users/kurmankarina/opt/anaconda3/include/qt/QtWidgets -isystem /Users/kurmankarina/opt/anaconda3/include/qt/QtGui -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/kurmankarina/opt/anaconda3/include/qt/QtCore -isystem /Users/kurmankarina/opt/anaconda3/./mkspecs/macx-clang
+  OBJECT_DIR = CMakeFiles/IndianRestaraunts.dir
+  OBJECT_FILE_DIR = CMakeFiles/IndianRestaraunts.dir/src
+
+build CMakeFiles/IndianRestaraunts.dir/src/model_view.cpp.o: CXX_COMPILER__IndianRestaraunts_Debug /Users/kurmankarina/CLionProjects/lasttestforpr/src/model_view.cpp || cmake_object_order_depends_target_IndianRestaraunts
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/IndianRestaraunts.dir/src/model_view.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -fPIC -std=gnu++17
+  INCLUDES = -I/Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug/IndianRestaraunts_autogen/include -isystem /Users/kurmankarina/opt/anaconda3/include/qt -isystem /Users/kurmankarina/opt/anaconda3/include/qt/QtWidgets -isystem /Users/kurmankarina/opt/anaconda3/include/qt/QtGui -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/kurmankarina/opt/anaconda3/include/qt/QtCore -isystem /Users/kurmankarina/opt/anaconda3/./mkspecs/macx-clang
+  OBJECT_DIR = CMakeFiles/IndianRestaraunts.dir
+  OBJECT_FILE_DIR = CMakeFiles/IndianRestaraunts.dir/src
+
+build CMakeFiles/IndianRestaraunts.dir/src/proxy_model.cpp.o: CXX_COMPILER__IndianRestaraunts_Debug /Users/kurmankarina/CLionProjects/lasttestforpr/src/proxy_model.cpp || cmake_object_order_depends_target_IndianRestaraunts
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/IndianRestaraunts.dir/src/proxy_model.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -fPIC -std=gnu++17
+  INCLUDES = -I/Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug/IndianRestaraunts_autogen/include -isystem /Users/kurmankarina/opt/anaconda3/include/qt -isystem /Users/kurmankarina/opt/anaconda3/include/qt/QtWidgets -isystem /Users/kurmankarina/opt/anaconda3/include/qt/QtGui -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/kurmankarina/opt/anaconda3/include/qt/QtCore -isystem /Users/kurmankarina/opt/anaconda3/./mkspecs/macx-clang
+  OBJECT_DIR = CMakeFiles/IndianRestaraunts.dir
+  OBJECT_FILE_DIR = CMakeFiles/IndianRestaraunts.dir/src
+
+build CMakeFiles/IndianRestaraunts.dir/src/dialog.cpp.o: CXX_COMPILER__IndianRestaraunts_Debug /Users/kurmankarina/CLionProjects/lasttestforpr/src/dialog.cpp || cmake_object_order_depends_target_IndianRestaraunts
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/IndianRestaraunts.dir/src/dialog.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -fPIC -std=gnu++17
+  INCLUDES = -I/Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug/IndianRestaraunts_autogen/include -isystem /Users/kurmankarina/opt/anaconda3/include/qt -isystem /Users/kurmankarina/opt/anaconda3/include/qt/QtWidgets -isystem /Users/kurmankarina/opt/anaconda3/include/qt/QtGui -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/kurmankarina/opt/anaconda3/include/qt/QtCore -isystem /Users/kurmankarina/opt/anaconda3/./mkspecs/macx-clang
+  OBJECT_DIR = CMakeFiles/IndianRestaraunts.dir
+  OBJECT_FILE_DIR = CMakeFiles/IndianRestaraunts.dir/src
+
+build CMakeFiles/IndianRestaraunts.dir/src/searchdialog.cpp.o: CXX_COMPILER__IndianRestaraunts_Debug /Users/kurmankarina/CLionProjects/lasttestforpr/src/searchdialog.cpp || cmake_object_order_depends_target_IndianRestaraunts
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/IndianRestaraunts.dir/src/searchdialog.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -fPIC -std=gnu++17
+  INCLUDES = -I/Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug/IndianRestaraunts_autogen/include -isystem /Users/kurmankarina/opt/anaconda3/include/qt -isystem /Users/kurmankarina/opt/anaconda3/include/qt/QtWidgets -isystem /Users/kurmankarina/opt/anaconda3/include/qt/QtGui -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/kurmankarina/opt/anaconda3/include/qt/QtCore -isystem /Users/kurmankarina/opt/anaconda3/./mkspecs/macx-clang
+  OBJECT_DIR = CMakeFiles/IndianRestaraunts.dir
+  OBJECT_FILE_DIR = CMakeFiles/IndianRestaraunts.dir/src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target IndianRestaraunts
+
+
+#############################################
+# Link the executable IndianRestaraunts.app/Contents/MacOS/IndianRestaraunts
+
+build IndianRestaraunts.app/Contents/MacOS/IndianRestaraunts: CXX_EXECUTABLE_LINKER__IndianRestaraunts_Debug CMakeFiles/IndianRestaraunts.dir/IndianRestaraunts_autogen/mocs_compilation.cpp.o CMakeFiles/IndianRestaraunts.dir/src/main.cpp.o CMakeFiles/IndianRestaraunts.dir/src/mainwindow.cpp.o CMakeFiles/IndianRestaraunts.dir/src/model_view.cpp.o CMakeFiles/IndianRestaraunts.dir/src/proxy_model.cpp.o CMakeFiles/IndianRestaraunts.dir/src/dialog.cpp.o CMakeFiles/IndianRestaraunts.dir/src/searchdialog.cpp.o | /Users/kurmankarina/opt/anaconda3/lib/libQt5Widgets.5.15.2.dylib /Users/kurmankarina/opt/anaconda3/lib/libQt5Gui.5.15.2.dylib /Users/kurmankarina/opt/anaconda3/lib/libQt5Core.5.15.2.dylib || IndianRestaraunts_autogen IndianRestaraunts_autogen_timestamp_deps
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  LINK_LIBRARIES = -Wl,-rpath,/Users/kurmankarina/opt/anaconda3/lib  /Users/kurmankarina/opt/anaconda3/lib/libQt5Widgets.5.15.2.dylib  /Users/kurmankarina/opt/anaconda3/lib/libQt5Gui.5.15.2.dylib  /Users/kurmankarina/opt/anaconda3/lib/libQt5Core.5.15.2.dylib
+  OBJECT_DIR = CMakeFiles/IndianRestaraunts.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = IndianRestaraunts.app/Contents/MacOS/IndianRestaraunts
+  TARGET_PDB = IndianRestaraunts.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/kurmankarina/CLionProjects/lasttestforpr -B/Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build CMakeFiles/install.util: CUSTOM_COMMAND all
+  COMMAND = cd /Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build install: phony CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build CMakeFiles/install/local.util: CUSTOM_COMMAND all
+  COMMAND = cd /Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build install/local: phony CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
+  COMMAND = cd /Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build install/strip: phony CMakeFiles/install/strip.util
+
+
+#############################################
+# Utility command for IndianRestaraunts_autogen_timestamp_deps
+
+build IndianRestaraunts_autogen_timestamp_deps: phony CMakeFiles/IndianRestaraunts_autogen_timestamp_deps
+
+
+#############################################
+# Utility command for IndianRestaraunts_autogen
+
+build IndianRestaraunts_autogen: phony CMakeFiles/IndianRestaraunts_autogen IndianRestaraunts_autogen/include/src/ui_mainwindow.h IndianRestaraunts_autogen/include/src/ui_dialog.h IndianRestaraunts_autogen/include/src/ui_searchdialog.h IndianRestaraunts_autogen/timestamp IndianRestaraunts_autogen/mocs_compilation.cpp IndianRestaraunts_autogen_timestamp_deps
+
+
+#############################################
+# Custom command for IndianRestaraunts_autogen/timestamp
+
+build IndianRestaraunts_autogen/timestamp IndianRestaraunts_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}IndianRestaraunts_autogen/timestamp ${cmake_ninja_workdir}IndianRestaraunts_autogen/mocs_compilation.cpp: CUSTOM_COMMAND /Users/kurmankarina/opt/anaconda3/bin/moc /Users/kurmankarina/opt/anaconda3/bin/uic || IndianRestaraunts_autogen_timestamp_deps
+  COMMAND = cd /Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_autogen /Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug/CMakeFiles/IndianRestaraunts_autogen.dir/AutogenInfo.json Debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch /Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug/IndianRestaraunts_autogen/timestamp && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_transform_depfile Ninja gccdepfile /Users/kurmankarina/CLionProjects/lasttestforpr /Users/kurmankarina/CLionProjects/lasttestforpr /Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug /Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug /Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug/IndianRestaraunts_autogen/deps /Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug/CMakeFiles/d/90dadccbf25655e9eac17f419b5c6decc5173238f1f44f8794431eaffedbc367.d
+  DESC = Automatic MOC and UIC for target IndianRestaraunts
+  depfile = /Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug/CMakeFiles/d/90dadccbf25655e9eac17f419b5c6decc5173238f1f44f8794431eaffedbc367.d
+  restat = 1
+
+
+#############################################
+# Phony custom command for CMakeFiles/IndianRestaraunts_autogen_timestamp_deps
+
+build CMakeFiles/IndianRestaraunts_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/IndianRestaraunts_autogen_timestamp_deps: phony /Users/kurmankarina/opt/anaconda3/bin/moc /Users/kurmankarina/opt/anaconda3/lib/libQt5Widgets.5.15.2.dylib /Users/kurmankarina/opt/anaconda3/bin/uic
+
+
+#############################################
+# Phony custom command for CMakeFiles/IndianRestaraunts_autogen
+
+build CMakeFiles/IndianRestaraunts_autogen IndianRestaraunts_autogen/include/src/ui_mainwindow.h IndianRestaraunts_autogen/include/src/ui_dialog.h IndianRestaraunts_autogen/include/src/ui_searchdialog.h | ${cmake_ninja_workdir}CMakeFiles/IndianRestaraunts_autogen ${cmake_ninja_workdir}IndianRestaraunts_autogen/include/src/ui_mainwindow.h ${cmake_ninja_workdir}IndianRestaraunts_autogen/include/src/ui_dialog.h ${cmake_ninja_workdir}IndianRestaraunts_autogen/include/src/ui_searchdialog.h: phony IndianRestaraunts_autogen/timestamp || IndianRestaraunts_autogen_timestamp_deps
+
+# =============================================================================
+# Target aliases.
+
+build IndianRestaraunts: phony IndianRestaraunts.app/Contents/MacOS/IndianRestaraunts
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/kurmankarina/CLionProjects/lasttestforpr/cmake-build-debug
+
+build all: phony IndianRestaraunts.app/Contents/MacOS/IndianRestaraunts
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseArguments.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/MacOSXBundleInfo.plist.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/kurmankarina/CLionProjects/lasttestforpr/CMakeLists.txt /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5/Qt5Config.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5/Qt5ConfigVersion.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5/Qt5ModuleLocation.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfig.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Core/Qt5CoreMacros.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QPdfPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseArguments.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/MacOSXBundleInfo.plist.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/kurmankarina/CLionProjects/lasttestforpr/CMakeLists.txt /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5/Qt5Config.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5/Qt5ConfigVersion.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5/Qt5ModuleLocation.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfig.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Core/Qt5CoreMacros.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QPdfPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake /Users/kurmankarina/opt/anaconda3/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean additional files.
+
+build CMakeFiles/clean.additional: CLEAN_ADDITIONAL
+  CONFIG = Debug
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN CMakeFiles/clean.additional
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
